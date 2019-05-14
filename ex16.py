@@ -18,7 +18,7 @@ print("if you do want that hit, RETURN") #i assume return is a keyword
 input("?")
 
 print("opening the file....")
-target = open(filename, 'w')
+target = open(filename, 'w') #w stands for write the default is read, so we are specifying to write 
 
 print("truncating the file, goodbye!")
 target.truncate()
