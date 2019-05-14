@@ -15,7 +15,7 @@ def print_a_line(line_count, f):
 
 current_file = open(input_file) #takes input file and stores in a new variable and opens it = this seems repetitive?
 
-print("first lets print the whole file \n")
+print("first lets print the whole file \n")git a
 
 print_all(current_file) #printing the whole file
 
