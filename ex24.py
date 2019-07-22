@@ -32,3 +32,8 @@ print("with a starting point of {}".format(start_point))
 print(f"we'd have {beans} beans, {jars} jars, and {crates} crates")
 
 start_point = start_point / 10
+
+print("we can also do that this way:")
+formula = secret_formula(start_point)
+#this is an easy way to apply a list to a format string
+print("we'd like to have {} beans, {} jars, and {} crates".format(*formula))
