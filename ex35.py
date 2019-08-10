@@ -6,7 +6,7 @@ def gold_room(): #this is a function
 
     choice = input("> ") #this symbol is just to help user to know an input is expected
     if "0" in choice or "1" in choice:
-        how_much =int(choice)
+        how_much = int(choice)
     else:
         dead("man, learn to type a number")
 
