@@ -24,4 +24,4 @@ print("whoah fancy!")
 print(stuff.pop()) #pulls the last item on the list
 print(' '.join(stuff)) #joins list into one string
 
-print('#'.join(stuff[3:5])) #prints only selected list elements with a # sign between them
+print('#'.join(stuff[3:5])) #prints only selected list elements with a # sign between themgit 
