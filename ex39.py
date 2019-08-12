@@ -1,4 +1,5 @@
 """dictionaries, oh lovely dictionaries"""
+#dictionaries have keys and values
 
 
 things = ['a', 'b', 'c','d'] #this is a dictionary
@@ -36,4 +37,4 @@ print("Michigan has the City: ", cities[states['Michigan']])
 print("*" *10) #print a star dividing line
 
 for abbrev, city in list(cities.items()): #iterate through allm items in list
-    print(f"{abbrev} has the city {city}") #print first item and then second item 
+    print(f"{abbrev} has the city {city}") #print first item and then second item
